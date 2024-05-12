@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Imágenes y Video</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="page-container">
+        <!-- Video de fondo -->
+        <video autoplay muted loop id="video-bg">
+            <source src="/v2.mp4" type="video/mp4">
+            
+        </video>
+
+        <h1>Para Luci, que ilumina mis dias :)</h1>
+
+        <button id="colorButton">Cambiar el color de fondo</button>
+
+        <button id="musicButton" onclick="toggleMusic()">Encender/Apagar Música</button>
+
+
+        <div class="image-container">
+            <img src="/e1.jpg" alt="Imagination" class="image-1">
+            <img src="/e2.jpg" alt="Imagination" class="image-2">
+            <img src="/e3.jpg" alt="Imagination" class="image-3">
+            <img src="/e4.jpg" alt="Imagination" class="image-4">
+        </div>
+
+        <!-- Audio de fondo -->
+        <audio autoplay loop id="audio-bg">
+            <source src="/a2.mp3" type="audio/mpeg">
+            
+        </audio>
+
+
+    </div>
+
+    <script src="script1.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+</body>
+
+</html>
